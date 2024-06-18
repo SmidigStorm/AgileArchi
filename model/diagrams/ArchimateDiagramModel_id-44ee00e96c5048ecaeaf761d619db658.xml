@@ -60,8 +60,8 @@
           name="gradient"
           value="0"/>
       <bounds
-          x="192"
-          y="120"
+          x="276"
+          y="96"
           width="120"
           height="55"/>
       <archimateElement
@@ -76,8 +76,8 @@
           name="gradient"
           value="0"/>
       <bounds
-          x="324"
-          y="60"
+          x="276"
+          y="156"
           width="120"
           height="55"/>
       <archimateElement
@@ -92,8 +92,8 @@
           name="gradient"
           value="0"/>
       <bounds
-          x="192"
-          y="60"
+          x="276"
+          y="36"
           width="120"
           height="55"/>
       <archimateElement
@@ -118,18 +118,15 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-828fab9e3cca48e692ab321aecf7a273">
-      <features
-          name="gradient"
-          value="0"/>
+        id="id-3d87271e4ee84101b9f72d45110418ae">
       <bounds
-          x="324"
-          y="120"
+          x="144"
+          y="36"
           width="120"
           height="55"/>
       <archimateElement
-          xsi:type="archimate:Principle"
-          href="Principle_id-22d0aad4b7504938b38a15c6b3be2b7e.xml#id-22d0aad4b7504938b38a15c6b3be2b7e"/>
+          xsi:type="archimate:Driver"
+          href="Driver_id-3cd9677b22c6493b878ea82f56083391.xml#id-3cd9677b22c6493b878ea82f56083391"/>
     </children>
   </children>
   <children
@@ -176,7 +173,7 @@
           x="24"
           y="48"
           width="120"
-          height="55"/>
+          height="72"/>
       <archimateElement
           xsi:type="archimate:Constraint"
           href="Constraint_id-3ca5fb2aa2724a9c8ae4f22503abc522.xml#id-3ca5fb2aa2724a9c8ae4f22503abc522"/>
@@ -190,7 +187,7 @@
           value="0"/>
       <bounds
           x="24"
-          y="108"
+          y="132"
           width="120"
           height="55"/>
       <archimateElement
@@ -205,7 +202,7 @@
           name="gradient"
           value="0"/>
       <bounds
-          x="300"
+          x="288"
           y="48"
           width="120"
           height="55"/>
@@ -277,6 +274,18 @@
       <archimateElement
           xsi:type="archimate:BusinessProcess"
           href="BusinessProcess_id-847be2f503d04eafa713c638404174c6.xml#id-847be2f503d04eafa713c638404174c6"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-06a82f836b5a45a1b54de55126531860">
+      <bounds
+          x="61"
+          y="228"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessProcess"
+          href="BusinessProcess_id-7ce0ebdc71014f61b86f27bd9bb7e12b.xml#id-7ce0ebdc71014f61b86f27bd9bb7e12b"/>
     </children>
   </children>
   <children
@@ -407,7 +416,7 @@
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-c9b242a6a3654a88b6e864b1fe10c9ce"
-      name="Technical Practices"
+      name="Technical Practices and Testing"
       font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-12|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold"
       textAlignment="1"
       fillColor="#0080ff"
@@ -493,6 +502,18 @@
           xsi:type="archimate:ApplicationComponent"
           href="ApplicationComponent_id-bda9ae0fa45d4d5eb3172c4c1afe4dae.xml#id-bda9ae0fa45d4d5eb3172c4c1afe4dae"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-2a898ede8b0f4baeb23aeb1eeb68d82e">
+      <bounds
+          x="156"
+          y="108"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:ApplicationProcess"
+          href="ApplicationProcess_id-afcb49a623c14f708302a598c29e9b1f.xml#id-afcb49a623c14f708302a598c29e9b1f"/>
+    </children>
   </children>
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -519,8 +540,8 @@
           name="gradient"
           value="0"/>
       <bounds
-          x="156"
-          y="156"
+          x="288"
+          y="96"
           width="120"
           height="55"/>
       <archimateElement
@@ -799,7 +820,7 @@
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-c9f95fa4aede48748878eb0dbc18b772"
-      name="Multi-team Collaboration"
+      name="Multi-team Collaboration and Communication"
       font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-12|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold"
       textAlignment="1"
       fillColor="#ffff80"
@@ -813,6 +834,33 @@
         y="498"
         width="528"
         height="233"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-21f7c856c75242edb9de152cda532e32">
+      <features
+          name="gradient"
+          value="0"/>
+      <bounds
+          x="24"
+          y="36"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessProcess"
+          href="BusinessProcess_id-4b97e4cedeb74b85b17e5cc49db35c85.xml#id-4b97e4cedeb74b85b17e5cc49db35c85"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-4d96a706495b47bb9ec8784084aecc4c">
+      <bounds
+          x="156"
+          y="36"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessCollaboration"
+          href="BusinessCollaboration_id-5ceddac62a2d464b9594a725c5d15aa2.xml#id-5ceddac62a2d464b9594a725c5d15aa2"/>
+    </children>
   </children>
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -1181,5 +1229,56 @@
           xsi:type="archimate:BusinessProcess"
           href="BusinessProcess_id-16feb374428d436287652cb56319890c.xml#id-16feb374428d436287652cb56319890c"/>
     </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-48cc285267ed4854a4c1eec314b8d7bd"
+      name="Case Studies"
+      font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-12|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold"
+      textAlignment="1"
+      alpha="100"
+      borderType="1">
+    <features
+        name="gradient"
+        value="0"/>
+    <bounds
+        x="1713"
+        y="962"
+        width="528"
+        height="233"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-b7c12ebcd7ec4a5ba4a1c11830623c31"
+      name="Facilitation"
+      font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-12|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold"
+      textAlignment="1"
+      alpha="100"
+      borderType="1">
+    <features
+        name="gradient"
+        value="0"/>
+    <bounds
+        x="1712"
+        y="34"
+        width="528"
+        height="233"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-a982d44e7496418aa0d22ba028b66a93"
+      name="Facilitation"
+      font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-12|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold"
+      textAlignment="1"
+      alpha="100"
+      borderType="1">
+    <features
+        name="gradient"
+        value="0"/>
+    <bounds
+        x="1979"
+        y="266"
+        width="260"
+        height="696"/>
   </children>
 </archimate:ArchimateDiagramModel>
